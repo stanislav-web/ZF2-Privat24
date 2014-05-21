@@ -4,7 +4,7 @@ PrivatBank online transactions by Privat24 Merchant
 
 To use this service you must be connected to the Privat24 Merchant http://privat24.ua 
 Then add your store setup verify password and get the Merchant ID.
-Customize Merchant, set a credit card for payment and so. 
+Customize Merchant, set a credit card for payment and so.
 Note the form, do not need to edit! All settings have already been made in the module.
 --------------------------------------
 
