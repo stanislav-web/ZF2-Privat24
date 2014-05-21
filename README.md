@@ -17,9 +17,9 @@ Configurations :
 2. Change configurations in module.config.php
 
 3. Call pay form using route http://yourdomain.dev/privat24 or use a partial helper from view
-
+```php
 <?php  echo $this->formPrivate24(new \Privat24\Form\Privat24Form($config['array'], $order['array'])); // for setup see module.config.php ?>
-
+```
 --------------------------------------
 In order to start using the module clone the repo in your vendor directory or add it as a submodule if you're already using git for your project:
 
