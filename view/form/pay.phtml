@@ -1,0 +1,16 @@
+<?php
+// output form
+
+$this->form->setAttribute('action', $config['fields']['handler']);
+    echo $this->form()->openTag($this->form);
+    ?>
+    <fieldset>
+        <?php
+        foreach($config['form'] as $k => $v):
+            echo $this->formRow($this->form->get($k));
+        endforeach;
+    ?>
+    </fieldset>
+<?php echo $this->form()->closeTag();
+
+?>

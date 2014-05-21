@@ -1,0 +1,31 @@
+{
+    "name": "stanislav-web/ZF2-Privat24",
+    "description": "ZF2 Privat24 v1.0",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "privatbank",
+        "privat24",
+        "privat24 payments"
+    ],
+    "homepage": "https://github.com/stanislav-web/ZF2-Privat24",
+    "authors": [
+        {
+            "name": "Stanislav WEB",
+            "email": "stanisov@gmail.com",
+            "homepage": "https://github.com/stanislav-web/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Privat24": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
